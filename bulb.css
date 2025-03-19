@@ -1,0 +1,52 @@
+.bg-container {
+  height: 100vh;
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-heading {
+  font-size: 50px;
+  font-family: "Roboto";
+  font-weight: 800;
+}
+
+.counter-value {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.button {
+  margin: 8px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border-width: 2px;
+  border-color: black;
+  background-color: #f1f5f8;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8; /* Slight opacity change when hovering over the button */
+}
+
+/* Specific button color for DECREASE */
+.button-decrease {
+  background-color: red;
+  color: white;
+}
+
+/* Specific button color for INCREASE */
+.button-increase {
+  background-color: green;
+  color: white;
+}
+
+/* Reset button style (you can customize this if needed) */
+.button-reset {
+  background-color: #007bff;
+  color: white;
+}
